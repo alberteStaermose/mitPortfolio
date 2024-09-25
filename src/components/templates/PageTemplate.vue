@@ -9,6 +9,18 @@
         <h2>{{ item.description }}</h2>
       </div>
     </div>
+
+    <div class="gridProjects">
+      <div class="projectCard">
+        <div class="projectImage">
+          <img :src="blok.projects.filename" alt="" />
+        </div>
+        <div class="hero-tekst">
+          <h1>{{ blok.name }}</h1>
+          <p>{{ blok.shortDescription }}</p>
+        </div>
+      </div>
+    </div>
     <!-- <pre>{{ blok }}</pre> -->
   </div>
 </template>
